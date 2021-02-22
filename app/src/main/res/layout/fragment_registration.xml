@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:padding="10dp"
+    tools:context=".RegistrationFragment">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/font_tic"/>
+
+        <EditText
+            android:id="@+id/etPlayer1Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="first player"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/choco"
+            android:textColorHint="@color/grey"/>
+
+        <EditText
+            android:id="@+id/etPlayer2Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="second player"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/choco"
+            android:textColorHint="@color/grey"/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="LET'S PLAY"
+            android:radius="100dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
